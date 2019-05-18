@@ -1,0 +1,51 @@
+/* 252422 626868 GRANITE GRAY 172121 DARK JUNGLE GREEN*/
+
+:root{
+    --junglegreen:#172121;
+    /* --independance:#454B66; */
+    --independance:#403F4C;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display:flex;
+   flex-direction:row;
+    height:100vh;
+    width:100vw;
+    background:white;
+ }
+  
+ .col-1{ 
+   flex:1;
+   background:var(--junglegreen);
+ }
+ .col-2{
+   flex:2;
+   background:var(--independance);
+ }
+ 
+ .col-3{
+   flex:4;
+   background:var(--independance);
+   display:flex;
+   flex-direction:column; 
+   
+ }
+ .col-3 div{
+   margin:5px;
+ }
+ .col-3-1{
+   flex:1;
+   background:var(--independance);
+ }
+ .col-3-2{
+   flex:1;
+   background:var(--independance);
+ }
+ .col-4{
+   flex:2;
+   background:var(--independance);
+ }
