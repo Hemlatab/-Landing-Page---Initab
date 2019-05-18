@@ -1,0 +1,22 @@
+{
+  "name": "-landing-page---initab",
+  "version": "1.0.0",
+  "description": "Pre-Work Project: Landing Page - Initab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemlatab/-Landing-Page---Initab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemlatab/-Landing-Page---Initab/issues"
+  },
+  "homepage": "https://github.com/Hemlatab/-Landing-Page---Initab#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
