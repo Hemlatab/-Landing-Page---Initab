@@ -12,7 +12,7 @@ body{
 }
 .container{
     display:flex;
-   flex-direction:row;
+    flex-direction:row;
     height:100vh;
     width:100vw;
     background:white;
@@ -49,4 +49,51 @@ body{
    flex:2;
    background:var(--independance);
  }
- 
+ ul li{
+   list-style: none;
+ }
+
+ ul li .settings{
+  color:red;
+ }
+ ul li .fa-wrench{
+   color:black;
+   background-color: #8eeafc;
+   padding:2px;
+ }
+
+ ul li .fa-code{
+  color:black;
+   background-color:#4efa82;
+   padding:2px;
+ }
+
+ ul li .fa-stack-overflow{
+  color:black;
+  background-color:#fdb770;
+  padding:2px;
+}
+
+ul li .fa-chart-line{
+  color:black;
+  background-color:#ff75c4;
+  padding:2px;
+}
+
+ul li .fa-pencil-alt{
+  color:black;
+  background-color:#bf91f6;
+  padding:2px;
+}
+
+ul li .fa-lightbulb{
+  color:black;
+  background-color:#f8f8f2;
+  padding:2px;
+}
+
+ul li .fa-question{
+  color:black;
+  background-color:#e4db7a;
+  padding:2px;
+}
