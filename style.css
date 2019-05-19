@@ -17,6 +17,18 @@ body{
     width:100vw;
     background:white;
  }
+ h4{
+   color:#8eeafc;
+ }
+ .para-1{
+   color:#bcbdbc;
+ }
+ #para-2{
+   color:#d7e187;
+ }
+ #para-3{
+   color:#ff75c4;
+ }
   /** Site Layout **/
  .col-1{ 
    flex:1;
