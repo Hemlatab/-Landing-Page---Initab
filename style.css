@@ -3,7 +3,7 @@
 :root{
     --junglegreen:#172121;
     /* --independance:#454B66; */
-    --independance:#403F4C;
+    --independance:#282935;
 
 }
 body{
@@ -20,11 +20,11 @@ body{
   
  .col-1{ 
    flex:1;
-   background:var(--junglegreen);
+   background:#454759;
  }
  .col-2{
    flex:2;
-   background:var(--independance);
+   background:var(--independance); 
  }
  
  .col-3{
@@ -49,3 +49,4 @@ body{
    flex:2;
    background:var(--independance);
  }
+ 
