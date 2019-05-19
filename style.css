@@ -1,14 +1,14 @@
-/* 252422 626868 GRANITE GRAY 172121 DARK JUNGLE GREEN*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root{
     --junglegreen:#172121;
-    /* --independance:#454B66; */
     --independance:#282935;
 
 }
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     display:flex;
@@ -17,10 +17,12 @@ body{
     width:100vw;
     background:white;
  }
-  
+  /** Site Layout **/
  .col-1{ 
    flex:1;
    background:#454759;
+   display: flex;
+   flex-direction: column;
  }
  .col-2{
    flex:2;
@@ -49,93 +51,141 @@ body{
    flex:2;
    background:var(--independance);
  }
- ul li{
-   list-style: none;
+
+ /** Styles for left side menu **/
+
+ .menu{
+ padding: 0 10px;
+ height: 80%;
+ }
+ .menu-footer{
+  height: 20%;
+ }
+ .menu li{
+   list-style-type: none;
+   padding:10px 0;
+   font-size: 10px;
  }
 
- ul li .settings{
-  color:red;
- }
+ul li:nth-child(1) { 
+  color: #8eeafc;
+}
+
+ul li:nth-child(2) { 
+  color: #4efa82;
+}
+ul li:nth-child(3) { 
+  color: #fdb770;
+}
+ul li:nth-child(4) { 
+  color: #ff75c4;
+}
+ul li:nth-child(5) { 
+  color: #bf91f6;
+}
+ul li:nth-child(6) { 
+  color: #f8f8f2;
+}
+ul li:nth-child(7) { 
+  color: #e4db7a;
+}
  ul li .fa-wrench{
    color:#454759;
    background-color: #8eeafc;
-   padding:2px;
+   font-size:13px;
+   padding:3px;
+   margin-right: 4px;
  }
 
  ul li .fa-code{
   color:#454759;
    background-color:#4efa82;
-   padding:2px;
+   font-size:13px;
+   padding:3px;
+   margin-right: 5px;
  }
 
  ul li .fa-stack-overflow{
   color:#454759;
   background-color:#fdb770;
-  padding:2px;
+  font-size:13px;
+   padding:3px;
+   margin-right: 5px;
 }
 
 ul li .fa-chart-line{
   color:#454759;
   background-color:#ff75c4;
-  padding:2px;
+  font-size:13px;
+  padding:3px;
+  margin-right: 5px;
 }
 
 ul li .fa-pencil-alt{
   color:#454759;
   background-color:#bf91f6;
-  padding:2px;
+  font-size:13px;
+   padding:3px;
+   margin-right: 5px;
 }
 
 ul li .fa-lightbulb{
   color:#454759;
   background-color:#f8f8f2;
-  padding:2px;
+  font-size:13px;
+   padding:3px;
+   margin-right: 5px;
 }
 
 ul li .fa-lock{
-  color:#454759;
-  background-color:#f8f8f2;
-  padding:2px;
+  color:#ccc;
+  font-size:13px;
+   padding:3px;
+   margin-left: 3px;
 }
 
 ul li .fa-question{
-  color:b#454759;
+  color:#454759;
   background-color:#e4db7a;
-  padding:2px;
+  font-size:13px;
+   padding:3px;
+   margin-right: 5px;
 }
 
 ul li .fa-facebook-f{
   color:white;
   background-color: #3f5995;
-  padding:5px;
+  padding:7px 5px;
   border-radius: 50%
 }
 
 ul li .fa-linkedin-in{
   color:white;
   background-color: #177faf;
-  padding:5px;
+  padding:7px 5px;
   border-radius: 50%
 }
 ul li .fa-twitter{
   color:white;
   background-color: #23aae9;
-  padding:5px;
+  padding:7px 5px;
   border-radius: 50%
 }
 
 ul li .fa-reddit{
   color:white;
   background-color: #6399cd;
-  padding:5px;
+  padding:7px 5px;
   border-radius: 50%
 }
 
-.flex-container{
-  display: flex;
-  height: 200px;
-  align-items: flex-end;
+.menu-footer a{
+margin-left: 14px;
 }
-image{
-  background-color:#6472a2;
+.social-links li{
+display: inline;
+margin:1px;
+}
+.social-links{
+padding:5px;
 }
