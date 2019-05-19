@@ -57,43 +57,85 @@ body{
   color:red;
  }
  ul li .fa-wrench{
-   color:black;
+   color:#454759;
    background-color: #8eeafc;
    padding:2px;
  }
 
  ul li .fa-code{
-  color:black;
+  color:#454759;
    background-color:#4efa82;
    padding:2px;
  }
 
  ul li .fa-stack-overflow{
-  color:black;
+  color:#454759;
   background-color:#fdb770;
   padding:2px;
 }
 
 ul li .fa-chart-line{
-  color:black;
+  color:#454759;
   background-color:#ff75c4;
   padding:2px;
 }
 
 ul li .fa-pencil-alt{
-  color:black;
+  color:#454759;
   background-color:#bf91f6;
   padding:2px;
 }
 
 ul li .fa-lightbulb{
-  color:black;
+  color:#454759;
+  background-color:#f8f8f2;
+  padding:2px;
+}
+
+ul li .fa-lock{
+  color:#454759;
   background-color:#f8f8f2;
   padding:2px;
 }
 
 ul li .fa-question{
-  color:black;
+  color:b#454759;
   background-color:#e4db7a;
   padding:2px;
+}
+
+ul li .fa-facebook-f{
+  color:white;
+  background-color: #3f5995;
+  padding:5px;
+  border-radius: 50%
+}
+
+ul li .fa-linkedin-in{
+  color:white;
+  background-color: #177faf;
+  padding:5px;
+  border-radius: 50%
+}
+ul li .fa-twitter{
+  color:white;
+  background-color: #23aae9;
+  padding:5px;
+  border-radius: 50%
+}
+
+ul li .fa-reddit{
+  color:white;
+  background-color: #6399cd;
+  padding:5px;
+  border-radius: 50%
+}
+
+.flex-container{
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+}
+image{
+  background-color:#6472a2;
 }
