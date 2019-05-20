@@ -39,6 +39,8 @@ body{
  .col-2{
    flex:2;
    background:var(--independance); 
+   padding-left:15px ;
+   overflow: auto;
  }
  
  .col-3{
@@ -164,7 +166,7 @@ ul li .fa-question{
    margin-right: 5px;
 }
 
-ul li .fa-facebook-f{
+ul li .fa-github{
   color:white;
   background-color: #3f5995;
   padding:7px 5px;
@@ -191,7 +193,7 @@ ul li .fa-reddit{
   border-radius: 50%
 }
 /** left menu footer **/
-.menu-footer a{
+.menu-footer initab-link{
 margin-left: 14px;
 }
 .social-links li{
@@ -199,5 +201,22 @@ display: inline;
 margin:1px;
 }
 .social-links{
-padding:5px;
+padding:2px;
+}
+/** Styles for Reddit Section**/
+.posted-by{
+color:#8eeafc;
+}
+.reddit-user{
+  color:#e4db7a;
+}
+.reddit-score{
+  color:#6472a2;
+}
+.reddit-link{
+  color:#ff75c4;
+}
+.reddit-feed{
+  border-left: 2px solid #6472a2;
+  padding-left: 12px;
 }
