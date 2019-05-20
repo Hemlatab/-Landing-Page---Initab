@@ -56,6 +56,7 @@ body{
  .col-3-1{
    flex:1;
    background:var(--independance);
+   padding-left: 15px;
  }
  .col-3-2{
    flex:1;
@@ -219,4 +220,13 @@ color:#8eeafc;
 .reddit-feed{
   border-left: 2px solid #6472a2;
   padding-left: 12px;
+}
+/** Styles for Javascript history**/
+.history-icon img{
+  height:20px;
+  width: 20px;
+}
+.history-title,.history-days{
+  margin-left: 15px;
+  color:#6472a2;
 }

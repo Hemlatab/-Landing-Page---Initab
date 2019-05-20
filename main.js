@@ -19,7 +19,18 @@ reddit.forEach(redditNews => {
 
 });
 
-let jsHistoryJson = `[{ "icon":"", "title":"", "time":""}, ]`
-let jsHistoryJson=JSON.parse(jsHistoryJson);
+let jsHistoryJson = `[{ "icon":"images/medium.ico", "title":"What the heck is a Callback? - codeburst", "time":"2 days"},
+                    { "icon":"images/mozilla.png", "title":"Javascript - MDN", "time":"2 days"},
+                    { "icon":"images/mozilla.png", "title":"Number Prototype", "time":"2 days"},
+                    { "icon":"images/mozilla.png", "title":"Number Prototype. Prototype Fixed?", "time":"2 days"},
+                    { "icon":"images/mozilla.png", "title":"Number?", "time":"2 days"},
+                    { "icon":"images/mozilla.png", "title":"Maths?", "time":"2 days"}]`
+let jsHistory=JSON.parse(jsHistoryJson);
+console.log(jsHistory);
 let jsHtml="";
 let htmlHistory=document.getElementById('jsHistory');
+jsHistory.forEach(function(history){
+jsHtml +=`<p><span class="history-icon"><img src=${history.icon}></span><span class="history-title">${history.title}</span><span class="history-days">${history.time}</span></p>`;
+htmlHistory.innerHTML= jsHtml;
+});
+
