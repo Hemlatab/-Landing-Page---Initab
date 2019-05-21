@@ -34,3 +34,12 @@ jsHtml +=`<p><span class="history-icon"><img src=${history.icon}></span><span cl
 htmlHistory.innerHTML= jsHtml;
 });
 
+let github ={
+    "repo": "Repo:zeit/next.js","issue":"Issue #5354", "content":"Server-side only method to ensure server-only code is never sent to the browser",
+    "repo": "Repo: zeit.next.js","issue":"Issue #4194", "content":"Context provided in _app.js can't be consumed in pages in SSR"
+
+    let githubIssues= document.getElementById('githubIssues');
+    output.innerHTML= github.repo;
+    output.innerHTML=github.issue;
+    output.innerHTML=github.content;
+};

@@ -30,7 +30,7 @@
           <img src="images/initab_logo.png" />
         </a>
         <ul class="social-links">
-          <li> <a href="#" target="_blank"><i class="fab fa-github fa-fw"></i></a></li>
+          <li> <a href="https://github.com/Hemlatab" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
           <li><i class="fab fa-linkedin-in fa-fw"></i></li>
           <li><i class="fab fa-twitter fa-fw"></i></li>
           <li><i class="fab fa-reddit fa-fw"></i></li>
@@ -52,13 +52,32 @@
         <h4><i class="far fa-clock"></i> RELEVANT JAVASCRIPT HISTORY</h4>
 
         <div id="jsHistory"></div>
+        <hr class="horizontal-line" />
       </div>
-      <div class="col-3-2"></div>
+      <div class="col-3-2">
+        <h1 class="current-time">
+          <script>
+            var d = new Date();
+            document.getElementById("demo").innerHTML = d.getTime();
+          </script>
+        </h1>
+        <h3 class="date">
+          <p id="demo"></p>
+
+          <script>
+            var d = new Date();
+            document.getElementById("date").innerHTML = d.toString();
+          </script>
+        </h3>
+        <p class="custom-links">RELEVANT JAVASCRIPT HISTORY RELEVANT JAVASCRIPT HISTORY</p>
+      </div>
     </div>
     <div class='col-4'>
       <h4><i class="fab fa-github-alt"></i> GITHUB ISSUES HISTORY</h4>
       <p>switch to gitlab</p>
       ISSUES PULL REQUEST
+
+      <div id="issue"></div>
     </div>
   </div>
 

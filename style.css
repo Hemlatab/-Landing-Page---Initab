@@ -61,6 +61,7 @@ body{
  .col-3-2{
    flex:1;
    background:var(--independance);
+text-align: center;
  }
  .col-4{
    flex:2;
@@ -167,7 +168,7 @@ ul li .fa-question{
    margin-right: 5px;
 }
 
-ul li .fa-github{
+ul li .fa-github-alt{
   color:white;
   background-color: #3f5995;
   padding:7px 5px;
@@ -228,5 +229,10 @@ color:#8eeafc;
 }
 .history-title,.history-days{
   margin-left: 15px;
+  color:#6472a2;
+}
+/** Styles for current time**/
+.current-time{
+  font-size: 70px;
   color:#6472a2;
 }
