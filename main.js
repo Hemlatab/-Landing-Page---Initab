@@ -34,12 +34,31 @@ jsHtml +=`<p><span class="history-icon"><img src=${history.icon}></span><span cl
 htmlHistory.innerHTML= jsHtml;
 });
 
-let github ={
-    "repo": "Repo:zeit/next.js","issue":"Issue #5354", "content":"Server-side only method to ensure server-only code is never sent to the browser",
-    "repo": "Repo: zeit.next.js","issue":"Issue #4194", "content":"Context provided in _app.js can't be consumed in pages in SSR"
+let github =`[{
+    "repo": "Repo:zeit/next.js","issue":"Issue #5354", "content":"Server-side only method to ensure server-only code is never sent to the browser"},
+    {"repo": "Repo: zeit.next.js","issue":"Issue #4194", "content":"Context provided in _app.js can't be consumed in pages in SSR"}]`
 
-    let githubIssues= document.getElementById('githubIssues');
-    output.innerHTML= github.repo;
-    output.innerHTML=github.issue;
-    output.innerHTML=github.content;
-};
+    let githubIssues=JSON.parse(github);
+    let githubContainer= document.getElementById('githubIssues');
+   
+    let issues ="";
+    
+    githubIssues.forEach(function(github){
+        issues+=`<div><p><span class="github-repo">${github.repo}</span></p><p><span class="github-issue">${github.issue}</span></p><p><span class="github-content">${github.content}</span></p></div>`        
+        githubContainer.innerHTML=issues;
+    })
+    /** Script for current time */
+    let hours =document.getElementById('hours');
+    let minutes =document.getElementById('minutes');
+    let date =document.getElementById('date');
+    let year =document.getElementById('year');
+    let day =document.getElementById('day');
+
+    let months=['Jan','Feb','March','April','May'];
+    let time = new Date();
+    hours.textContent = time.getHours();
+    minutes.textContent = time.getMinutes();
+    date.textContent = time.getDate();
+    year.textContent = time.getFullYear();
+    day.textContent = months[time.getMonth()];
+

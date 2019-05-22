@@ -236,3 +236,15 @@ color:#8eeafc;
   font-size: 70px;
   color:#6472a2;
 }
+/** Styles for github issues**/
+
+.github-repo{
+
+    color:#e4db7a;
+}
+.github-issue{
+  color:#e4db7a;
+}
+.github-content{
+  color:#e4db7a;
+}
