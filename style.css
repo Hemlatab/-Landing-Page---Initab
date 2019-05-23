@@ -61,7 +61,7 @@ body{
  .col-3-2{
    flex:1;
    background:var(--independance);
-text-align: center;
+  text-align: center;
  }
  .col-4{
    flex:2;
@@ -114,7 +114,7 @@ ul li:nth-child(7) {
  }
 
  ul li .fa-code{
-  color:#454759;
+   color:#454759;
    background-color:#4efa82;
    font-size:13px;
    padding:3px;
@@ -125,8 +125,8 @@ ul li:nth-child(7) {
   color:#454759;
   background-color:#fdb770;
   font-size:13px;
-   padding:3px;
-   margin-right: 5px;
+  padding:3px;
+  margin-right: 5px;
 }
 
 ul li .fa-chart-line{
@@ -231,20 +231,32 @@ color:#8eeafc;
   margin-left: 15px;
   color:#6472a2;
 }
+.history-days{
+  float: right;
+  padding-right: 10px;
+}
+.custom-links{
+    color:#515b7f;
+  }
+.time-content{
+  color:#515b7f;
+}
+.time-footer{
+  color:#515b7f;
+}
 /** Styles for current time**/
 .current-time{
   font-size: 70px;
   color:#6472a2;
 }
-/** Styles for github issues**/
+/** Styles for github issues history**/
 
 .github-repo{
-
-    color:#e4db7a;
+color:#6472a2;
 }
 .github-issue{
   color:#e4db7a;
 }
 .github-content{
-  color:#e4db7a;
+  color:#f8f8f2;
 }

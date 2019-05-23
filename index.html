@@ -59,20 +59,23 @@
           <span id="hours"></span>:
           <span id="minutes"></span>
         </h1>
+
         <h3 class="date">
           <span id="day"></span>
           <span id="date"></span>
           <span id="year"></span>
-
-
         </h3>
-        <p class="custom-links">RELEVANT JAVASCRIPT HISTORY RELEVANT JAVASCRIPT HISTORY</p>
+        <p id=”time-content”>Did you know you can add CUSTOM LINKS to display in this section?
+          Open the SETTINGS panel and add the URLs of your favorites sites to the ‘CUSTOM LINKS’ textarea.</p>
+        <p id=”time-footer”>Got it! Don’t show me this again.</p>
+
       </div>
+
     </div>
     <div class='col-4'>
       <h4><i class="fab fa-github-alt"></i> GITHUB ISSUES HISTORY</h4>
-      <p>switch to gitlab</p>
-      ISSUES PULL REQUEST
+      <p id="switch-gitlab">switch to gitlab</p>
+      <span id="issues">ISSUES</span> <span id="pull-request">PULL REQUEST</span>
 
       <div id="githubIssues"></div>
     </div>
@@ -82,10 +85,7 @@
   <script src="./main.js">
 
   </script>
-  <script>
-    var d = new Date();
-    document.getElementById("demo").innerHTML = d.toString();
-  </script>
+
 </body>
 
 </html>

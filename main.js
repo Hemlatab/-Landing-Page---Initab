@@ -53,11 +53,22 @@ let github =`[{
     let date =document.getElementById('date');
     let year =document.getElementById('year');
     let day =document.getElementById('day');
-
-    let months=['Jan','Feb','March','April','May'];
+    let months=['Jan','Feb','March','April','May','June','July','August','September','October','November','December'];
     let time = new Date();
-    hours.textContent = time.getHours();
-    minutes.textContent = time.getMinutes();
+
+    let minute = time.getMinutes();
+    let hour = time.getHours();
+
+    if(minute<10){
+        minute = '0' + minute;
+    }
+
+    if(hour<10){
+        hour = '0' + hour;
+    }
+   
+    hours.textContent = hour;
+    minutes.textContent = minute;
     date.textContent = time.getDate();
     year.textContent = time.getFullYear();
     day.textContent = months[time.getMonth()];
