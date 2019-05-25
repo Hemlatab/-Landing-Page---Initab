@@ -17,12 +17,12 @@
     <div class='col-1'>
       <ul class="menu">
         <li><i class="fas fa-wrench fa-fw"></i>SETTINGS</li>
-        <li><i class="fas fa-code fa-fw"></i> GISTS</li>
-        <li><i class="fab fa-stack-overflow fa-fw"></i> STACK OVERFLOW</li>
-        <li><i class="fas fa-chart-line fa-fw"></i> TRENDING</li>
-        <li><i class="fas fa-pencil-alt fa-fw"></i> SCRATCH PAD</li>
-        <li><i class="far fa-lightbulb fa-fw"></i> PLAYGROUND <i class="fas fa-lock"></i></li>
-        <li><i class="fas fa-question fa-fw"></i> HELP/INTRO</li>
+        <li><i class="fas fa-code fa-fw"></i>GISTS</li>
+        <li><i class="fab fa-stack-overflow fa-fw"></i>STACK OVERFLOW</li>
+        <li><i class="fas fa-chart-line fa-fw"></i>TRENDING</li>
+        <li><i class="fas fa-pencil-alt fa-fw"></i>SCRATCH PAD</li>
+        <li><i class="far fa-lightbulb fa-fw"></i>PLAYGROUND <i class="fas fa-lock"></i></li>
+        <li><i class="fas fa-question fa-fw"></i>HELP/INTRO</li>
       </ul>
 
       <div class="menu-footer">
@@ -56,29 +56,44 @@
       </div>
       <div class="col-3-2">
         <h1 class="current-time">
-          <span id="hours"></span>:
-          <span id="minutes"></span>
+          <span id="hours"></span>:<span id="minutes"></span>
         </h1>
 
-        <h3 class="date">
+        <h3 class="current-date">
           <span id="day"></span>
           <span id="date"></span>
           <span id="year"></span>
         </h3>
-        <p id=”time-content”>Did you know you can add CUSTOM LINKS to display in this section?
+        <p id="time-content"><i class="fas fa-question-circle"></i>Did you know you can add CUSTOM LINKS to display in
+          this section?
           Open the SETTINGS panel and add the URLs of your favorites sites to the ‘CUSTOM LINKS’ textarea.</p>
-        <p id=”time-footer”>Got it! Don’t show me this again.</p>
-
+        <p id="time-footer"><i class="fas fa-times-circle"></i>Got it! Don’t show me this again.</p>
       </div>
 
     </div>
     <div class='col-4'>
-      <h4><i class="fab fa-github-alt"></i> GITHUB ISSUES HISTORY</h4>
-      <p id="switch-gitlab">switch to gitlab</p>
-      <span id="issues">ISSUES</span> <span id="pull-request">PULL REQUEST</span>
+      <div class="col-4-1">
+        <h4><i class="fab fa-github-alt"></i> GITHUB ISSUES HISTORY</h4>
+        <p id="switch-gitlab">switch to gitlab</p>
+        <span id="issues">ISSUES</span> <span id="pull-request">PULL REQUEST</span>
 
-      <div id="githubIssues"></div>
+        <div id="githubIssues"></div>
+      </div>
+
+      <div class="col-4-2">
+        <div id="advertissement">
+          <img src="images/advert.jpeg" />
+          <p id="ads-carbon">ads via Carbon</p>
+        </div>
+
+        <div id="advert-text">
+          <p>GoJS is a fast and powerful Javascript and TypeScript diagramming library.
+          </p>
+        </div>
+      </div>
+
     </div>
+
   </div>
 
 

@@ -41,11 +41,11 @@ let github =`[{
     let githubIssues=JSON.parse(github);
     let githubContainer= document.getElementById('githubIssues');
    
-    let issues ="";
+    let issues = "";
     
     githubIssues.forEach(function(github){
-        issues+=`<div><p><span class="github-repo">${github.repo}</span></p><p><span class="github-issue">${github.issue}</span></p><p><span class="github-content">${github.content}</span></p></div>`        
-        githubContainer.innerHTML=issues;
+    issues+=`<div><p><span class="github-repo">${github.repo}</span></p><p><span class="github-issue">${github.issue}</span></p><p><span class="github-content">${github.content}</span></p></div>`        
+    githubContainer.innerHTML=issues;
     })
     /** Script for current time */
     let hours =document.getElementById('hours');
@@ -60,7 +60,7 @@ let github =`[{
     let hour = time.getHours();
 
     if(minute<10){
-        minute = '0' + minute;
+        minute ='0'+ minute;
     }
 
     if(hour<10){
